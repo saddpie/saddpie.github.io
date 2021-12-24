@@ -1,7 +1,7 @@
 :root {
-    --main-color: #c0392b;
-    --body-bg: #181616;
-    --box-bg: #221f1f;
+    --main-color: #330b0796;
+    --body-bg: #e6bb94;
+    --box-bg: #68181867;
     --text-color: #ffffff;
 
     --nav-height: 60px;
@@ -50,7 +50,7 @@ img {
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(41, 40, 40, 0.5);
 }
 
 .nav-wrapper {
@@ -59,7 +59,8 @@ img {
     left: 0;
     width: 100%;
     z-index: 99;
-    background-color: #000000;
+    background-color: #2e0d099f;
+     
 }
 
 .nav {
@@ -223,7 +224,7 @@ a.movie-item:hover {
 .item-content-wraper {
     padding-left: 5rem;
     width: 40%;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(26, 16, 16, 0.849);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -237,7 +238,7 @@ a.movie-item:hover {
     left: 100%;
     width: 50%;
     height: 100%;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+    background: linear-gradient(to right, rgba(26, 16, 16, 0.849), rgba(0, 0, 0, 0));
 }
 
 .item-content-title {
@@ -312,7 +313,7 @@ a.movie-item:hover {
 }
 
 .owl-nav button i {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(26, 16, 16, 0.849);
     border-radius: 50%;
 }
 
